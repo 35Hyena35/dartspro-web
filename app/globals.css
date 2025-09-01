@@ -1,0 +1,6 @@
+*{box-sizing:border-box}html,body{margin:0;padding:0;font-family:Inter,system-ui,Arial,sans-serif}
+a{text-decoration:none}
+:root{
+  --bg:#0B0F1A; --surface:#151E2E; --text:#EAF0FF; --muted:#C0C9E8;
+  --primary:#FF6A66; --lime:#7CFF5B;
+}
