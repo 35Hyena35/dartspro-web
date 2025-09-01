@@ -1,0 +1,15 @@
+:root{
+  --bg:#0B0F1A; --surface:#151E2E; --text:#EAF0FF; --muted:#C0C9E8;
+  --primary:#FF6A66; --lime:#7CFF5B; --border:rgba(255,255,255,.10);
+}
+:root[data-theme="light"]{
+  --bg:#ffffff; --surface:#f5f7fb; --text:#0B1220; --muted:#556B8F;
+  --primary:#FF6A66; --lime:#3CD275; --border:rgba(0,0,0,.12);
+}
+.ui-card{
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:16px; padding:16px;
+}
+.ui-btn{ padding:12px 16px; border-radius:12px; border:1px solid var(--border); background:rgba(255,255,255,.06); color:var(--text); }
+.ui-btn--primary{ background:var(--primary); color:#000; border-color:transparent; }
+.ui-btn--ghost{ background:transparent; }
